@@ -15,25 +15,21 @@
 
     // Task Number: 2
 
-// var arr = [1, 2, 5, 3, 4, 5, 6, 7, 8, 8, 10];
-// var unique = [];
+// var arr = [1, 2, 5, 3, 4, 5, 6, 7, 8, 8, 8, 8, 10,10,10];
+// document.writeln("Given Array: [ "+ arr + " ]");
 
 // for (var i = 0; i < arr.length; i++) {
-//     var found = false;
 
-//     for (var j = 0; j < unique.length; j++) {
-//         if (arr[i] === unique[j]) {
-//             found = true; 
+//     for (var j = i+1 ; j < arr.length; j++) {
+//         if (arr[i] === arr[j]) {
+//             arr.splice(j,1)
+//             j--
 //         }
-//     }
-
-//     if (found === false) {
-//         unique.push(arr[i]); 
 //     }
 // }
 
-// document.writeln("Given Array: [ "+ arr + " ]");
-// document.writeln("<br/>Unique Array: [ "+ unique + " ]");
+// document.writeln("<br/> Unique Array: [ "+ arr + " ]");
+
 
 
     // Task Number: 3
